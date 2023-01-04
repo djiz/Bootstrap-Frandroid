@@ -32,6 +32,13 @@
     --5v: linear-gradient(45deg,rgba(251,96,117,.5) 0%,rgba(var(--2d),0.5) 100%,rgba(var(--2d),0.5) 100%);
     --5w: linear-gradient(45deg,rgba(var(--2f),0.5) 0%,rgba(250,92,129,.5) 100%);
     --5x: linear-gradient(-135deg,rgba(146,80,251,.5) 0%,rgba(77,89,254,.5) 84%,rgba(var(--8),0.5) 100%);
+
+    /* Changer la couleur du texte danger */
+    --bs-danger-rgb: 255, 117, 179;
+  }
+  .text-bg-danger {
+    color: #fff;
+    background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1))!important;
   }
 
 .list-item-categorie {
@@ -67,4 +74,14 @@
 }
 .list-item-categorie:hover::after {
     width: 2rem;
+}
+.title-pubBar {
+    font-size: 17px;
+}
+#barcolorsBackground {
+    background-image: url('https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/eecc6ea811fd19d92d88.svg');
+    background-repeat: no-repeat;  
+}
+#navbarSupportedContent {
+    width: 100%;
 }
