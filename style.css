@@ -118,7 +118,7 @@
     font-size: 25px;
 }
 .social-links i:hover {
-    color: var(--56);
+    color: var(--1l);
     cursor: pointer;
 }
 .megaMenu a {
@@ -164,6 +164,9 @@
 .megaMenu .megaMenu-categorie ul li ul  {
     border-left: 1px solid grey;
     margin-bottom: 10px;
+}
+.megaMenu .megaMenu-categorie ul li ul li a:hover  {
+    color: var(--1l);
 }
 
 
